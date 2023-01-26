@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    height: 40px;
+    width: 285% !important;
+    background: #3D0357;
+    text-align: center;
+    padding: 5% !important;
+    margin-left: -90% !important;
+    border: none !important;
+    height: 40px;
+
+}
+
+.header p {
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+form {
+    margin-right: 30%;
+}
+
+.inputestilofullfuncionario {
+    background-color: #F0F0F0;
+    border: none;
+    width: 300% !important;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    padding: 5%;
+    overflow: scroll;
+    margin-left: -90%;
+}
+
+.inputestilo2 {
+    background-color: #F0F0F0;
+    border: none;
+    margin-top: 40px;
+    width: 300% !important;
+    height: 320px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    padding: 5%;
+    overflow: scroll;
+    margin-left: -90%;
+}
+
+.linefunc {
+    display: flex;
+}
+
+.buttonfunc {
+    float: left;
+    margin-left: 20px;
+    background: #3D0357;
+    text-align: center !important;
+    color: white;
+    width: 10%;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+.buttonedit {
+    float: left;
+    margin-left: 20px;
+    background: #326e41;
+    text-align: center;
+    color: white;
+    width: 10%;
+    font-size: 80%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+.showfunc {
+    width: 85%;
+}
+
+inputpedro:focus::placeholder {
+    color: transparent;
+}
+
+inputpedro:focus {
+    outline: none;
+}
+
+inputpedro {
+    width: 500% !important;
+    overflow: auto;
+}
+
+.inputpedro p {
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: -90%;
+}
+
+
+.buttonline {
+    display: flex;
+    width: 139%;
+    align-items: center;
+}
+
+.button3 {
+    background: #3D0357;
+    text-align: center;
+    color: white;
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button2 {
+    background: #3D0357;
+    text-align: center;
+    color: white;
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}

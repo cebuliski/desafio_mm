@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    height: 71px;
+    width: 100%;
+    background: #3D0357;
+    text-align: center;
+    padding: 20px;
+    border: none;
+}
+
+.header p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-right: 13%;
+}
+
+.inputestilocadastrofuncionario {
+    /*aqui corresponde aos campos nome, endereço, estado, cidade e email*/
+    background-color: #F0F0F0;
+    border: none;
+    width: 122.5%;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.side {
+    display: flex;
+    width: 122.5% !important;
+}
+
+.inputestilocadastrofuncionarioside {
+    background-color: #F0F0F0;
+    border: none;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    float: left !important;
+    width: 122.5% !important;
+}
+
+.funcionario {
+    background-color: #F0F0F0;
+    border: none;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    float: left !important;
+    width: 10% !important;
+}
+
+.dtninputestilocadastrofuncionarioside {
+    background-color: #F0F0F0;
+    border: none;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    float: left !important;
+    width: 100% !important;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    color: black !important;
+}
+
+.input p {
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+    margin-left: -87% !important;
+}
+
+.inputSidebySide2 p {
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+.inputLabelTest p {
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+    margin-left: -75% !important;
+}
+
+.dtninputSidebySide2 {
+    margin-left: 50%;
+    width: 330% !important;
+}
+
+.dtninputSidebySide2 p {
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+
+.inputSidebySide p {
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+.buttonline {
+    display: flex;
+    width: 122.5%;
+}
+
+.button {
+    background: #3D0357;
+    text-align: center;
+    color: white;
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button2 {
+    background: #3D0357 !important;
+    text-align: center !important;
+    color: white !important;
+    width: 268px;
+    height: 48px !important;
+    font-size: 150% !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+    cursor: pointer !important;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 800px) {
+    .inputestilocadastrofuncionarioside input {
+        margin: 10px 0;
+    }
+
+    .dtninputSidebySide2 {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+
+    .inputestilocadastrofuncionarioside {
+        width: 121% !important;
+    }
+
+    .side {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
