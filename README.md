@@ -1,6 +1,6 @@
 # desafio_mm
 
-Sobre o projeto: 
+Sobre o projeto: <br />
 O projeto foi feito usando usando Node.js juntamente ao TypeORM e como banco de dados o MySQL, usando React no Front-End.<br />
 Todos os campos estão com validações. Como por exemplo: telefone não aceita letra, validador de CPF e validador de e-mail.<br />
 Foi adicionado também duas tabelas no banco de dados: a de funcionário e a de cidade, em um relacionamento 1:n. Assim, funcionário leva a chave primária de cidade.
