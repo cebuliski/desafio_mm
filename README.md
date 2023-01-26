@@ -8,13 +8,13 @@ Não pode ser salvo um funcionário novo sem antes preencher todos os campos da 
 
 Passo a passo para rodar o projeto:
 
-OBS1: Tendo os seguintes programas instalados: MySQL, VSCode
-OBS2: Criar um arquivo chamado ".env" dentro da pasta backend_mm, e em seguida pode só copiar e colar
-DB_HOST="nome do host" // Exemplo: localhost
-DB_PORT="porta" //Exemplo: 3306
-DB_USER="usuário" //Exemplo: root
-DB_PASS="senha do seu banco de dados MySQL" //Exemplo: 12345678
-DB_NAME="nome do banco de dados" //Exemplo: backend_mm
+OBS1: Tendo os seguintes programas instalados: MySQL, VSCode <br />
+OBS2: Criar um arquivo chamado ".env" dentro da pasta backend_mm, e em seguida pode só copiar e colar<br />
+DB_HOST="nome do host" // Exemplo: localhost<br />
+DB_PORT="porta" //Exemplo: 3306<br />
+DB_USER="usuário" //Exemplo: root<br />
+DB_PASS="senha do seu banco de dados MySQL" //Exemplo: 12345678<br />
+DB_NAME="nome do banco de dados" //Exemplo: backend_mm<br />
 
 PORT=8080
 
