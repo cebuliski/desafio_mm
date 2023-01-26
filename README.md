@@ -4,7 +4,9 @@ Sobre o projeto:
 O projeto foi feito usando usando Node.js juntamente ao TypeORM e como banco de dados o MySQL, usando React no Front-End.<br />
 Todos os campos estão com validações. Como por exemplo: telefone não aceita letra, validador de CPF e validador de e-mail.<br />
 Foi adicionado também duas tabelas no banco de dados: a de funcionário e a de cidade, em um relacionamento 1:n. Assim, funcionário leva a chave primária de cidade.
-Não pode ser salvo um funcionário novo sem antes preencher todos os campos da tela.
+Não pode ser salvo um funcionário novo sem antes preencher todos os campos da tela.<br />
+Todo o CRUD está feito.<br />
+As telas e o banco de dados podem ser vistos nas imagens ao final deste arquivo.
 
 Passo a passo para rodar o projeto:
 
@@ -26,3 +28,8 @@ PORT="porta do seu banco de dados" //Exemplo: 8080
 6º Depois de instaladas as dependências, entrar novamente na pasta backend_mm e rodar o comando "yarn run dev". Isso fará rodar o back-end da aplicação<br />
 7º Caso o navegador não abra automaticamente, insira na url "localhost:5173" <br />
 8º Caso não crie automaticamente, criar um schima com o nome "backend_mm". Após isso estará funcionando
+
+![banco de dados](https://user-images.githubusercontent.com/74630925/214944721-d2a877d5-2db1-4ec7-be76-88399a2be74b.png)
+![cadastro](https://user-images.githubusercontent.com/74630925/214944123-d869a5cd-a6db-4991-84d6-8fcaf73ce6e8.png)
+![listafuncionario](https://user-images.githubusercontent.com/74630925/214944320-56c2f291-af38-4f27-b20b-0a0988615eac.png)
+
