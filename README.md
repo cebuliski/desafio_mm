@@ -3,7 +3,7 @@
 **Sobre o projeto:** <br />
 <br />
 O projeto foi feito usando usando Node.js juntamente ao TypeORM e como banco de dados o MySQL, usando React no Front-End.<br />
-Existem 8 campos ao todo que recebem dados: Nome, Data de Nascimento, CPF, Telefone, Endereço, Estado, Cidade e Email. <br />
+Existem 8 campos ao todo que recebem dados: Nome, Data de Nascimento, CPF, Telefone, Endereço, Estado, Cidade e Email. E também pesquisa de funcionário usando o seu nome.<br />
 Foi feito um CRUD para todos esses campos.<br />
 Os campos estão com validações. Como por exemplo: telefone não aceita letra, CPF e e-mail possuem validações que não deixa um funcionário ser criado se os seus campos não forem preenchidos corretamente, não pode salvar sem antes preencher todos os campos, entre outros.<br />
 Foram feitas duas tabelas no banco de dados:  cidade e funcionário, em um relacionamento 1:n. Assim, funcionário leva a chave primária de cidade.<br />
@@ -35,4 +35,4 @@ Agora, se olhar dentro da pasta "src" que está na "backend_mm", verá que foi c
 
 ![banco de dados](https://user-images.githubusercontent.com/74630925/214944721-d2a877d5-2db1-4ec7-be76-88399a2be74b.png) <br />
 ![ff](https://user-images.githubusercontent.com/74630925/215009553-5f0a1c6d-7080-4530-b7ac-4ba69235f75b.png) <br />
-![cadastro](https://user-images.githubusercontent.com/74630925/214944123-d869a5cd-a6db-4991-84d6-8fcaf73ce6e8.png)
+![ddd](https://user-images.githubusercontent.com/74630925/215009786-85fac286-efd3-4a17-baea-5cf0f7825042.png)
