@@ -33,7 +33,6 @@ Agora, se olhar dentro da pasta "src" que está na "backend_mm", verá que foi c
 **8º** Entrar novamente na pasta "backend_mm" e em seu terminal rodar o comando "yarn run dev". Isso fará rodar o back-end da aplicação. <br />
 **9º** Agora com tudo instalado e funcionando, poderá ser feito todo o CRUD e testes da aplicação no seu navegador e visualizando tudo no MySQL. <br />
 
-![banco de dados](https://user-images.githubusercontent.com/74630925/214944721-d2a877d5-2db1-4ec7-be76-88399a2be74b.png)
+![banco de dados](https://user-images.githubusercontent.com/74630925/214944721-d2a877d5-2db1-4ec7-be76-88399a2be74b.png) <br />
+![ff](https://user-images.githubusercontent.com/74630925/215009553-5f0a1c6d-7080-4530-b7ac-4ba69235f75b.png) <br />
 ![cadastro](https://user-images.githubusercontent.com/74630925/214944123-d869a5cd-a6db-4991-84d6-8fcaf73ce6e8.png)
-![listafuncionario](https://user-images.githubusercontent.com/74630925/214944320-56c2f291-af38-4f27-b20b-0a0988615eac.png)
-
